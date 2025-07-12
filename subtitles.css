@@ -1,0 +1,78 @@
+:root {
+    --background-color: #202020; 
+    --white: #ffffff;
+    --border-radius: 6px;
+    --subtitle-font-size: 16px;
+    --collapse-text: 3em; 
+    --expand-text: 6em; 
+}
+.subtitle {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%; 
+    width: 400px;
+    border: none;
+    border-radius: var(--border-radius);
+    background-color: transparent;
+    transition: background-color 0.8s ease;
+    font-family: Arial, sans-serif;
+    z-index: 1000;
+}
+.subtitle:hover {
+    background-color: #000000;
+}
+.subtitle-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 4px;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+.subtitle-text {
+    display: flex;           
+    align-items: flex-end;      
+    width: 90%; 
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 0 8px;
+    font-size: var(--subtitle-font-size);
+    line-height: calc(var(--subtitle-font-size)*1.5);
+    color: var(--white);
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6); 
+    user-select: none;
+}
+.subtitle-collapse-text {
+    height: calc(var(--collapse-text)*1.5);
+}
+.subtitle-expand-text {
+    height: calc(var(--expand-text)*1.5);
+}
+.subtitle-footer {
+    text-align: center;
+    padding: 12px;
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+}
+.subtitle-button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 16px;
+    line-height: 16px;
+    color: transparent;
+    transition: color 0.8s ease;
+}
+.subtitle:hover .subtitle-button{
+    color: var(--white);
+}
+.subtitle-collapse-button {
+    transform: rotate(-90deg);
+    transform-origin: center;
+}
+.subtitle-expand-button{
+    transform: rotate(90deg);
+    transform-origin: center;
+}

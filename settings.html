@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subtitle Settings</title>
+    <link rel="stylesheet" href="settings.css"> 
+</head>
+<body>
+    <div>
+        <div class="settings-header">Subtitle Settings</div>
+        <label>
+            <input type="checkbox" id="settings-subtitle"> 
+            <span class="custom-checkbox"></span>
+            Enable Subtitles
+        </label>
+        <div class="center">
+            <img class="example-image" draggable="false" src="pictures/field-background.jpg">
+            <div class="example-label" id="settings-example">Subtitle Example Text.</div>
+        </div>
+        <div>
+            <label class="center">Background Transparency:</label>
+            <input type="range" id="settings-transparency" class="slider" min="0" max="100" value="0">
+        </div>
+        <div class="row">
+            <label class="row-label">Font Style:</label>
+            <label>
+                <input type="checkbox" id="settings-bold">
+                <span  class="custom-checkbox"></span>
+                <span class="font-style-bold">Bold</span>
+            </label>
+            <label>
+                <input type="checkbox" id="settings-italic">
+                <span class="custom-checkbox"></span>
+                <span class="font-style-italic">Italic</span>
+            </label>
+        </div>
+        <div>
+            <button class="font-style-button" onclick="selectFontStyle(this)" id="Arial" style="font-family: 'Arial';">Arial</button>
+            <button class="font-style-button" onclick="selectFontStyle(this)" id="Consolas" style="font-family: 'Consolas';">Consolas</button>
+            <button class="font-style-button" onclick="selectFontStyle(this)" id="Times New Roman" style="font-family: 'Times New Roman';">Times New Roman</button>
+        </div>
+        <div class="row">
+            <label>Font Size:</label>
+            <button class="settings-button" id="settings-decrease-font-size">-</button>
+            <button class="settings-button" id="settings-increase-font-size">+</button>
+            <label class="font-size-px" id="settings-example-px-font-size">16px</label>
+        </div>
+        <div class="center">
+            <button class="settings-button" id="settings-apply">Apply</button>
+            <button class="settings-button" id="settings-reset">Reset</button>
+        </div>
+    </div>
+    <script src="settings.js"></script> 
+</body>
+</html>
