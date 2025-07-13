@@ -21,11 +21,10 @@
 # Examples
 YouTube video by @TheBrokeHam:
 [UNBOXING] Midland WR120B NOAA Weather Alert Radio
-https://github.com/user-attachments/assets/bf78025e-b729-4609-99ca-278103b7f3a6
+[![Watch the video](https://github.com/user-attachments/assets/bf78025e-b729-4609-99ca-278103b7f3a6)](https://github.com/user-attachments/assets/bf78025e-b729-4609-99ca-278103b7f3a6)
 
 
 
 YouTube video by @CimmytOrg:
 MasAgro: Farmers producing more food while conserving the environment
-https://github.com/user-attachments/assets/72992ac2-64d9-4c53-913a-cd23f0189336
-
+[![Watch the video](https://github.com/user-attachments/assets/72992ac2-64d9-4c53-913a-cd23f0189336)](https://github.com/user-attachments/assets/72992ac2-64d9-4c53-913a-cd23f0189336)
