@@ -8,13 +8,13 @@
     "storage"
   ], 
   "browser_action": {
-    "default_popup": "settings.html",
+    "default_popup": "user-settings/settings.html",
     "default_icon": "pictures/icon.png"
   },
   "content_scripts": [ 
     {
       "matches": ["<all_urls>"],
-      "js": ["subtitles.js"]
+      "js": ["subtitles/subtitles.js"]
     }
   ]
 }

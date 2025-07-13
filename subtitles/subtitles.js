@@ -27,7 +27,7 @@ function loadStylesheet(){
     const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = browser.runtime.getURL('subtitles.css');
+    link.href = browser.runtime.getURL('subtitles/subtitles.css');
     link.setAttribute('data-subtitle-style', 'true');
     document.head.appendChild(link);
 }
@@ -163,6 +163,7 @@ function loadTextFile() {
             subtitleText.textContent = data; 
         })
         .catch(error => {
+            console.error('Fetch error:', error);
             subtitleText.textContent = 'Error loading text content.';
         });
 }

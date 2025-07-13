@@ -16,7 +16,7 @@ let currentFontStyle = "Arial";
 let defaultSettings = { 
     subtitles: false,
     transparency: 50, 
-    bold: true, 
+    bold: false, 
     italic: false,
     font: "Arial",  
     fontSize: '20px' 
