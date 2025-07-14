@@ -21,7 +21,7 @@ Created with the goal to make live audio content more accessible. WhisperX's aut
 
 
 # Examples
-Both YouTube videos are under the Creative Commons Attribution license license:
+Both YouTube videos are under the Creative Commons Attribution license:
  
 ### YouTube video by @CimmytOrg:
 MasAgro: Farmers producing more food while conserving the environment
